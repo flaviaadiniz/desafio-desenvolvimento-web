@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
 }
 
@@ -16,22 +16,69 @@ div {
 }
 
 h2 {
-    font-size: 1.8em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.0em;
+    font-weight: bold;
+    color: #333;
     margin-bottom: 20px;
 }
 
+
 img {
-    max-width: 60%;
+    max-width: 50%;
     height: auto;
     margin-bottom: 20px;
 }
 
 h3 {
     font-size: 1.5em;
+    text-align: center;
     margin-bottom: 10px;
 }
 
-br {
-    display: none;
-    /* Oculta as quebras de linha */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
 }
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+

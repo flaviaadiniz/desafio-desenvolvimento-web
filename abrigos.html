@@ -6,6 +6,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="abrigos.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
     </head>
     
     <body>
@@ -15,15 +17,41 @@
             <img src="https://www.assufrgs.org.br/wp-content/uploads/2023/09/arte-SOS.png" height="40%">
     
             <h3>Abrigos para pessoas</h3>
-            <br>
+            <br><br>
     
             <h3>Abrigos para animais</h3>
-            <br>
-    
-            <h3>Cadastro de Voluntários</h3>
-    
-    
+            <br><br>
         </div>
+    
+
+    <form action="#" method="POST">
+        <h3>Formulário de Voluntariado</h3>
+        <div>
+            <label for="nome_completo">Nome Completo:</label>
+            <input type="text" id="nome_completo" name="nome_completo" required>
+            <br><br>
+           
+            <label for="telefone">Telefone para Contato:</label>
+             <input type="tel" id="telefone" name="telefone" pattern="[0-9]{2}[0-9]{8,9}" placeholder="DDD + número" required>
+            <br><br>
+            
+            <label for="cidade">Cidade onde deseja ser voluntário:</label>
+            <input type="text" id="cidade" name="cidade" required>
+            <br><br>
+            
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+
+    <br>
+
+    <button onclick="goBack()">Voltar à pagina inicial</button>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+    
     </body>
     
 </html>
