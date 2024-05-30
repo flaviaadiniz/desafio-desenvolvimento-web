@@ -7,25 +7,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="abrigos.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
+        <script src="script.js"></script>
     </head>
     
     <body>
         <div>
-            <h2>Faça a diferença fazendo doações aos abrigos e se cadastrando para ser voluntário!</h2>
+            <h2>Faça a diferença através de doações aos abrigos e se cadastrando para ser voluntário!</h2>
+            <br>
     
             <img src="https://www.assufrgs.org.br/wp-content/uploads/2023/09/arte-SOS.png" height="40%">
+            <br><br><br>
     
-            <h3>Abrigos para pessoas</h3>
+            <h3 id="abrigos">Abrigos para pessoas</h3>
+            <p>Inserir lista de abrigos para pessoas</p>
             <br><br>
-    
-            <h3>Abrigos para animais</h3>
+
+            <h3 id="abrigos">Abrigos para animais</h3>
+            <p>Inserir lista de abrigos para animais</p>
             <br><br>
         </div>
     
 
     <form action="#" method="POST">
-        <h3>Formulário de Voluntariado</h3>
+        <h3 id="cadastro">Cadastro de Voluntário</h3>
         <div>
             <label for="nome_completo">Nome Completo:</label>
             <input type="text" id="nome_completo" name="nome_completo" required>
@@ -45,12 +49,8 @@
 
     <br>
 
-    <button onclick="goBack()">Voltar à pagina inicial</button>
-    <script>
-        function goBack() {
-            window.history.back();
-        }
-    </script>
+    <button id="goBackButton">Voltar à página inicial</button>
+    <script src="script.js"></script>
     
     </body>
     
