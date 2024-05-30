@@ -45,6 +45,17 @@ h3 {
     border-radius: 10px;
 }
 
+h4 {
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    color: black;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
 form {
     max-width: 400px;
     margin: 0 auto;
@@ -106,3 +117,9 @@ button:hover {
     margin-right: 420;
 }
 
+.multiline {
+    text-align: left;
+    padding-left: 20px;
+    white-space: pre-line;
+    padding-bottom: 20px;
+}
