@@ -25,11 +25,11 @@ section h2 {
     margin: 0 0 20px 0; 
 }
 
-button.fixed-footer {
+button {
     width: 100%;
     padding: 10px;
     border: none;
-    border-radius: 0;
+    border-radius: 5px;
     background-color: #007bff;
     color: #fff;
     font-size: 16px;
@@ -40,6 +40,6 @@ button.fixed-footer {
     text-align: center;
 }
 
-button.fixed-footer:hover {
+button:hover {
     background-color: #0056b3;
 }
