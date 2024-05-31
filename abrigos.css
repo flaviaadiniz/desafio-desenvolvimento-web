@@ -148,4 +148,18 @@ li {
     color: #fff;
 }
 
+.back {
+    margin-left: 15;
+    margin-top: 10;;
+    width: 20%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkred;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
 
