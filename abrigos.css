@@ -144,6 +144,7 @@ li {
 
 #list-items {
     margin-right: 20px;
+    margin-left: 20px;
     text-decoration: none;
     color: #fff;
 }
