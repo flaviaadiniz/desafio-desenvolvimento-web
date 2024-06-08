@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
@@ -26,7 +26,7 @@ main {
 .content-section {
     background: #fff;
     margin: 20px 0;
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
@@ -35,7 +35,7 @@ main {
     text-align: center;
     color: #4CAF50;
     margin: 0 0 20px 0;
-    font-size: 1.75rem;
+    font-size: 2rem;
 }
 
 .intro-text, .history-text {
@@ -62,30 +62,58 @@ main {
     clear: both;
 }
 
-button {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 0;
-    background-color: #007bff;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    border-radius: 0 0 5px 5px;
+.history-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
-button:hover {
-    background-color: #0056b3;
+.history-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px; /* Aumenta o espaço entre o texto e a imagem */
+    margin-bottom: 40px; /* Adiciona margem inferior para separar as imagens */
+}
+
+.history-item img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.history-item p {
+    max-width: 600px;
+    margin: 0 auto; /* Centraliza o texto */
+    flex: 1;
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    .history-item {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .history-item:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+    .intro-text, .history-text {
+        padding: 0;
+    }
+
+    button {
+        font-size: 18px;
+    }
 }
 
 .iframe-container {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+    padding-bottom: 56.25%;
 }
 
 .iframe-container iframe {
@@ -97,15 +125,30 @@ button:hover {
     border: none;
 }
 
-@media (min-width: 768px) {
-    .intro-text, .history-text {
-        text-align: left;
-        padding-right: 10%;
-        padding-left: 10%;
-    }
+footer {
+    background-color: #007bff;
+    text-align: center;
+    padding: 10px 0;
+}
 
-    button {
-        font-size: 18px;
-        padding: 20px;
-    }
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 0;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+img {
+    width: 100%;
+    max-width: 1280px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
