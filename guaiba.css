@@ -1,43 +1,81 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
 
-main {
-    padding-top: 140px; 
-    padding-bottom: 20px;
-}
-
-section {
-    margin-bottom: 10px;
-    padding: 20px;
-    background: #fff;
-    border-radius: 20px;
-    max-width: 1280px; 
-    margin: 60px auto;
-    text-align: center; 
-}
-
-section h2 {
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 0;
     text-align: center;
-    margin: 0 0 20px 0; 
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.content-section {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.content-section h2 {
+    text-align: center;
+    color: #4CAF50;
+    margin: 0 0 20px 0;
+    font-size: 1.75rem;
+}
+
+.intro-text, .history-text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #333;
+    text-align: justify;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.intro-text::first-letter, .history-text::first-letter {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4CAF50;
+    float: left;
+    margin-right: 10px;
+    line-height: 1;
+}
+
+.intro-text::after, .history-text::after {
+    content: '';
+    display: table;
+    clear: both;
 }
 
 button {
     width: 100%;
     padding: 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 0;
     background-color: #007bff;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
+    text-align: center;
     position: fixed;
     bottom: 0;
     left: 0;
-    text-align: center;
+    border-radius: 0 0 5px 5px;
 }
 
 button:hover {
@@ -59,32 +97,15 @@ button:hover {
     border: none;
 }
 
-.intro-text {
-    font-size: 1.2rem;
-    line-height: 1.8;
-    color: #333;
-    text-align: justify;
-    margin: 0;
-    padding: 0;
-}
-
-.intro-text::first-letter {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #4CAF50;
-    float: left;
-    margin-right: 5px;
-}
-
-.intro-text::after {
-    content: '';
-    display: table;
-    clear: both;
-}
-
 @media (min-width: 768px) {
-    .intro-text {
-        text-align: right;
-        padding-right: 20%;
+    .intro-text, .history-text {
+        text-align: left;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 20px;
     }
 }

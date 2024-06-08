@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Nível do Guaíba</title>
-        <link rel="stylesheet" href="guaiba.css">
-    </head>
-    <body>
-        <main>
-            <section>
-                <h2>ACOMPANHAMENTO DO GUAÍBA</h2>
-                <div class="iframe-container">
-                    <iframe width="1920" height="1080" src="https://app.powerbi.com/view?r=eyJrIjoiZTRjZDlmYjgtNzAzMS00ZTFmLTlmZDAtNzEwNjM0MDU0NTJhIiwidCI6ImUwYmI0MDEyLTgxMGItNDY5YS04YjRkLTY2N2ZjZDFiYWY4OCJ9" allowFullScreen="true"></iframe>
-                </div>
-            </section>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nível do Guaíba</title>
+    <link rel="stylesheet" href="guaiba.css">
+</head>
+<body>
+    <header>
+        <h1>Nível do Guaíba</h1>
+    </header>
+    <main>
+        <section id="introducao" class="content-section">
+            <h2>Introdução</h2>
+            <p class="intro-text">O Rio Guaíba é uma importante via fluvial que atravessa Porto Alegre, a capital do estado do Rio Grande do Sul. O nível do Guaíba é monitorado constantemente devido à sua relevância para o abastecimento de água, navegação, lazer e, principalmente, para a prevenção de enchentes. A histórica enchente de 1941 foi um evento catastrófico que devastou a cidade, submergindo bairros inteiros e causando grandes prejuízos materiais e humanos. Este evento marcou a história de Porto Alegre, destacando a necessidade de um monitoramento contínuo e de medidas de mitigação para evitar tragédias semelhantes no futuro.</p>
+        </section>
 
-            <section id="introducao">
-                <h2>Introdução</h2>
-                <h1>O Rio Guaíba é uma importante via fluvial que atravessa Porto Alegre, a capital do estado do Rio Grande do Sul. O nível do Guaíba é monitorado constantemente devido à sua relevância para o abastecimento de água, navegação, lazer e, principalmente, para a prevenção de enchentes. A histórica enchente de 1941 foi um evento catastrófico que devastou a cidade, submergindo bairros inteiros e causando grandes prejuízos materiais e humanos. Este evento marcou a história de Porto Alegre, destacando a necessidade de um monitoramento contínuo e de medidas de mitigação para evitar tragédias semelhantes no futuro.</p>
-            </section>
-        </main>   
+        <section class="content-section">
+            <h2>Acompanhamento do Guaíba</h2>
+            <div class="iframe-container">
+                <iframe width="1920" height="1080" src="https://app.powerbi.com/view?r=eyJrIjoiZTRjZDlmYjgtNzAzMS00ZTFmLTlmZDAtNzEwNjM0MDU0NTJhIiwidCI6ImUwYmI0MDEyLTgxMGItNDY5YS04YjRkLTY2N2ZjZDFiYWY4OCJ9" allowFullScreen="true"></iframe>
+            </div>
+        </section>
 
+        <section id="historia" class="content-section">
+            <h2>História do Rio Guaíba</h2>
+            <p class="history-text">O Rio Guaíba possui uma rica história que se entrelaça com o desenvolvimento da cidade de Porto Alegre e do estado do Rio Grande do Sul. Desde tempos pré-coloniais, as margens do Guaíba foram habitadas por povos indígenas que utilizavam suas águas para pesca e transporte. Com a chegada dos colonizadores europeus, o rio se tornou um ponto estratégico para o comércio e o crescimento urbano.</p>
+            <p class="history-text">Em 1941, Porto Alegre enfrentou uma das piores enchentes de sua história. As águas do Guaíba subiram a níveis alarmantes, causando destruição em vários bairros e deixando milhares de desabrigados. Este evento marcou profundamente a cidade, levando à construção de barragens e sistemas de alerta para prevenir futuras enchentes.</p>
+            <p class="history-text">Hoje, o Guaíba é vital para a vida de Porto Alegre. Ele fornece água potável, serve como rota de transporte e é um local popular para atividades recreativas. O monitoramento contínuo do seu nível é essencial para garantir a segurança e o bem-estar da população local.</p>
+        </section>
+    </main>
+
+    <footer>
         <button id="goBackButton">Voltar à página inicial</button>
-        <script src="script.js"></script>
-    </body>
-
+    </footer>
+    <script src="script.js"></script>
+</body>
 </html>
