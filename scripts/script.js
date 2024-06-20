@@ -12,4 +12,9 @@ function scrollToTop() {
   });
 }
 
-  
+
+document.getElementById("registrationForm").addEventListener("submit", triggerAlert);
+
+function triggerAlert() {
+  alert("Cadastro feito com sucesso");
+}  
