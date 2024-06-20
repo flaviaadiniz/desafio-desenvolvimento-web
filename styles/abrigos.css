@@ -105,6 +105,10 @@ button:hover {
     background-color: #0056b3;
 }
 
+#backToTopBtn:hover {
+    background-color: #54030b;
+}
+
 #cadastro-voluntarios {
     font-weight: bold;
     color:whitesmoke;
