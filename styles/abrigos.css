@@ -134,6 +134,8 @@ button:hover {
     font-size: 1.1em;
     border-radius: 15px;
     background-color: #333; padding: 20px;
+    margin-left: 200;
+    margin-right: 200;
 }
 
 ul {
@@ -156,7 +158,7 @@ li {
 
 .back {
     margin-left: 15;
-    margin-top: 10;;
+    margin-top: 10;
     width: 20%;
     padding: 10px;
     border: none;
@@ -167,5 +169,4 @@ li {
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
 }
-
 
