@@ -1,16 +1,19 @@
 body {
+    display: grid;
+    place-items: center;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
 
 header {
+    font-family: 'Roboto', sans-serif;
     background-color: #1C1C1C;
     color: #ffffff;
-    padding: 20px 0;
+    padding: 10px 0;
     width: 100%;
-    position: fixed;
     top: 0;
     text-align: center;
 }
@@ -37,15 +40,45 @@ header nav ul li a {
 }
 
 main {
-    padding-top: 140px; 
-    padding-bottom: 20px;
+    padding-top: 50px; 
+    padding-bottom: 50px;
 }
 
 section {
-    margin-bottom: 10px;
+    margin-top: auto;
+    margin-bottom: 20px;
     padding: 20px;
     background: #fff;
     border-radius: 20px;
     max-width: 960px; 
-    margin: 60px auto;
+    margin: auto;
+}
+
+.header-logo {
+    margin-right: 15px;
+    height: 60px;
+}
+
+.spaced-paragraph {
+    line-height: 1.4;
+    overflow: hidden;
+}
+
+.float-left {
+    float: left;
+    margin-right: 15px;
+}
+
+.highlight {
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+}
+
+.centered-div {
+    padding: 20px;
+}
+
+#last-paragraph {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
