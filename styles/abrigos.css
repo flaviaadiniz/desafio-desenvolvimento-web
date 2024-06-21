@@ -17,9 +17,10 @@ div {
 h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 1.8em;
-    font-weight: bold;
     color:whitesmoke;
     margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
     background-color: darkred;
     padding: 15px 20px; 
     border-radius: 10px; 
@@ -40,7 +41,7 @@ h3 {
     text-align: center;
     margin-bottom: 10px;
     color:whitesmoke;
-    background-color: darkgreen;
+    background-color: darkred;
     padding: 10px 20px; 
     border-radius: 10px;
 }
@@ -97,7 +98,7 @@ button {
     background-color: #007bff;
     color: #fff;
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
 }
 
@@ -131,11 +132,12 @@ button:hover {
 }
 
 #navigation {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.1em;
     border-radius: 15px;
     background-color: #333; padding: 20px;
-    margin-left: 200;
-    margin-right: 200;
+    margin-left: 100;
+    margin-right: 100;
 }
 
 ul {
@@ -157,6 +159,7 @@ li {
 }
 
 .back {
+    
     margin-left: 15;
     margin-top: 10;
     width: 20%;
