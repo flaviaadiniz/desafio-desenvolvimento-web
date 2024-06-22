@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+/* heigth: altura ( em px)
+  width: largura ( em px)
+  border: 1*/ 
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    background-attachment: fixed;
+    background-image: linear-gradient(-105deg,#FA8E83,#FAF2A8,#8DE090 );
+}
+
+*{
+  box-sizing: border-box;
+}
+
+h1{
+  text-align: center;
+  font-family:'sans-serifld';
+  font-size: 45px;
+  margin-top: 9px;
+  
+}
+
+h2{
+  font-family: Impact;
+  font-size: 32px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h3{
+  font-family: Arial;
+  font-size: 32px;
+  text-align: left; 
+}
+
+
+
+ul{
+  font-family: times;
+  font-size: 28px;
+  text-align: left;
+
+}
+
+
+#mapa{
+  font-size: Impact;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+.titulo{
+  background-color:rgba(133, 28, 219, 0.76);
+  height: 80px;
+  width: 1000px;
+  border: 3px solid black;
+  padding-bottom:50px;
+  max-width: 1200px;
+  margin:auto;
+  margin-top:25px;
+}
+
+.img-truck{
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  margin-top: 5px;
+}
+
+.truck{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.situacao-estradas{
+  background-color: rgba(42, 185, 10, 0.371);
+  width: 60%;
+  border-radius: 30px;
+  position: relative;
+
+}
+
+.mapa{
+  background-color:rgba(42, 185, 10, 0.371); 
+  width: 85%;
+  height:850px; 
+  border:3px solid rgba(42, 185, 10, 0.371);
+  border-radius: 50px;
+  margin: auto;
+}
+
+.mapaRaster{
+  width: 100%;
+  height: 80%; /* Maintain aspect ratio */
+  margin: center;
+  border-radius: 30px;
+  border-left: 10%;
+}
+
+.lista-numerica{
+  background-color: rgba(42, 185, 10, 0.371);
+  width: 60%;
+  border-radius: 30px;
+}
+
+/*.goBackButton{
+  background-color: blue;
+  border: 2px solid black;
+  border-radius: 30px;
+  width: 230px;
+  height: 85px;
+  border-top: 96%;
+
+}
+  */
+
+#voltar{
+  font-size: 18px;
+  font-family: "Arial";
+  
+  height: 45px;
+  border-radius: 20px;
+  width: 300x;
+  background-color: blue;
+  margin: center;
+}
+
+
+
+/* text-align: center;
+background-color:rgba(133, 28, 219, 0.76) ;
+border: 3px solid dark; /*

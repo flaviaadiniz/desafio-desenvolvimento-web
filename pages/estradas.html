@@ -3,66 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
     <title>Situação Estradas RS</title>
+    <link rel="stylesheet" href="../styles/estradas.css">
 </head>
+
+
 <body>
-<img src="fotos/foto-de-caminhao-capa.avif" alt="foto-caminhao-capa">
-    <h1> Veja a seguir todos bloqueios nas estradas do RS</h1> 
-<h2>BLOQUEIO TOTAL</h2>
-<h3>Estradas com bloqueio totais: </h3>
-<ul>
-    <li>ERS 020, km 56 em Igrejinha/RS</li>
-    <li>ERS 417, km 09 em Itati/RS</li>
-    <li>BR 116, km 174 em Nova Petropolis/RS</li>
-    <li>VRS 843, km 00 em Feliz/RS</li>
-    <li>ERS 411, km 22 em Marata/RS</li>
-    <li>ERS 130, km 26 em Taquari</li>
-    <li>ERS 130, km 62 em Cruzeiro do Sul/RS</li>
-    <li>ERS 130, km 75 em Lajeado/RS</li>
-    <li>ERS 431, km 25 em Santa Barbara/RS</li>
-    <li>BR 470, km 192, km 190 e km 188 em Veranópolis/RS</li>
-</ul>
-<h2>BLOQUEIO PARCIAL</h2>
-<h3>Estradas com bloqueio Parciais: </h3>
-<ul>
-    <li>BR 290, km 80 em Cachoeirinha/RS</li>
-    <li>BR 290, km 96 em Porto Alegre/RS</li>
-    <li>BR 290, km 98 em Porto Alegre/RS</li>
-    <li>BR 386, km 425 Montenegro/RS</li>
-    <li>BR 116, km 232 em Estancia Velha/RS</li>
-    <li>ERS 020, km 42 em Taquara/RS</li>
-    <li>BR 470, km 262 em Salvador do Sul/RS</li>
-    <li>ERS 115, km 28 em Gramado/RS</li>
-    <li>ERS 235, km 52 em Canela/RS</li>
-    <li>BR 116, km 181 em Nova Petropolis/RS</li>
-    <li>VRS 826, km 04 em Feliz/RS</li>
-    <li>BR 386, km 361 em Estrela/RS</li>
-    <li>ERS 129, km 08 em Bom Retiro/RS</li>
-    <li>RSC 453, km 75 em Boa Vista do Sul/RS</li>
-</ul>
+    <div class="titulo">
+        <h1> Veja a seguir todos bloqueios nas estradas do RS</h1>
+    </div> 
 
-<h2>Veja o mapa interativo completo abaixo:</h2>
-<iframe src="https://app.powerbi.com/view?r=eyJrIjoiZTZjMTYyYzgtMWE4ZS00NWQ5LWExOTEtNDIzNTZkZWE4MjM2IiwidCI6IjI0ODg0MjBjLTBmNjItNDViOC04NzM2LTlmMGI3N2NkMjljNyJ9" width="1280" height="720"></iframe>
+    <div class="img-truck">
+        <img class="truck" src="../images/foto-de-caminhao-capa.jpeg" alt="foto-caminhao-capa">
+    </div>
 
-<h2>Caso tenha dúvidas sobre algumas estradas entre em contato com seguintes números:</h2>
-<ul>
-    <li>DAER-RS: (51) 3210-5039</li>
-    <li>Delegacia PRF POA: (51) 3375-9727 </li>
-    <li>Delegacia PRF Eldorado do Sul: (51) 3375-9717 / (51) 99983-6851</li>
-    <li>Delegacia PRF Osório: (51) 3663-4141 </li>
-    <li>Delegacia PRF Lajeado: (51) 3748-9605 </li>
-    <li>Delegacia PRF Caxias do Sul: (51) 99376-3084</li>
-    <li>Delegacia PRF Bento Gonçalves: (51) 3453 4657 / (51) 99376-3084 </li>
-    <li>Delegacia PRF Pelotas: (53) 3273-6756</li>
-    <li>Delegacia PRF Sarandi: (54) 3361-3483 / (54) 3361-2100</li>
-    <li>Delegacia PRF Santa Maria: (55) 3226 6217 / (55) 99117 9182 </li>
-    <li>Delegacia PRF Ijuí: (55) 3333-1705</li>
-    <li>Delegacia PRF Santana do Livramento:  55 3244-2464, 55 3243-2156 / 51 99556-9762</li>
-    <li>Delegacia PRF São Borja: (55) 3431-2626 </li>
-    <li>Delegacia PRF Uruguaiana: (55) 3412-4774 </li>
-</ul>
-    <button id="goBackButton">Voltar Para página inicial</button>
-    <script src="..\scripts\script.js"></script>
-</body>
+    <div class="bloqueio">
+        <h2>BLOQUEIO TOTAL</h2>    
+    </div>
+
+    <div class="situacao-estradas">
+        <h3>Estradas com bloqueio totais: </h3>
+        <ul>
+            <li>ERS 020, km 56 em Igrejinha/RS</li>
+            <li>ERS 417, km 09 em Itati/RS</li>
+            <li>BR 116, km 174 em Nova Petropolis/RS</li>
+            <li>VRS 843, km 00 em Feliz/RS</li>
+            <li>ERS 411, km 22 em Marata/RS</li>
+            <li>ERS 130, km 26 em Taquari</li>
+            <li>ERS 130, km 62 em Cruzeiro do Sul/RS</li>
+            <li>ERS 130, km 75 em Lajeado/RS</li>
+            <li>ERS 431, km 25 em Santa Barbara/RS</li>
+            <li>BR 470, km 192, km 190 e km 188 em Veranópolis/RS</li>
+        </ul>
+    </div>
+    <div class="bloqueio"> 
+        <h2>BLOQUEIO PARCIAL</h2>
+    <div>
+
+    <div class="situacao-estradas">
+        <h3 >Estradas com bloqueio Parciais: </h3>  
+        <ul>  
+            <li>BR 290, km 80 em Cachoeirinha/RS</li>
+            <li>BR 290, km 96 em Porto Alegre/RS</li>
+            <li>BR 290, km 98 em Porto Alegre/RS</li>
+            <li>BR 386, km 425 Montenegro/RS</li>
+            <li>BR 116, km 232 em Estancia Velha/RS</li>
+            <li>ERS 020, km 42 em Taquara/RS</li>
+            <li>BR 470, km 262 em Salvador do Sul/RS</li>
+            <li>ERS 115, km 28 em Gramado/RS</li>
+            <li>ERS 235, km 52 em Canela/RS</li>
+            <li>BR 116, km 181 em Nova Petropolis/RS</li>
+            <li>VRS 826, km 04 em Feliz/RS</li>
+            <li>BR 386, km 361 em Estrela/RS</li>
+            <li>ERS 129, km 08 em Bom Retiro/RS</li>
+            <li>RSC 453, km 75 em Boa Vista do Sul/RS</li>
+        </ul> 
+    </div>
+
+    <div class="mapa">
+        <h2 id="mapa" >Veja o mapa interativo completo abaixo:</h2>
+        <iframe class="mapaRaster" src="https://app.powerbi.com/view?r=eyJrIjoiZTZjMTYyYzgtMWE4ZS00NWQ5LWExOTEtNDIzNTZkZWE4MjM2IiwidCI6IjI0ODg0MjBjLTBmNjItNDViOC04NzM2LTlmMGI3N2NkMjljNyJ9"></iframe>  
+    </div>
+
+    <div class="lista-numerica">
+        <h3>Caso tenha dúvidas sobre algumas estradas entre em contato com seguintes números:</h3>
+        <ul>
+            <li>DAER-RS: (51) 3210-5039</li>
+            <li>Delegacia PRF POA: (51) 3375-9727 </li>
+            <li>Delegacia PRF Eldorado do Sul: (51) 3375-9717 / (51) 99983-6851</li>
+            <li>Delegacia PRF Osório: (51) 3663-4141 </li>
+            <li>Delegacia PRF Lajeado: (51) 3748-9605 </li>
+            <li>Delegacia PRF Caxias do Sul: (51) 99376-3084</li>
+            <li>Delegacia PRF Bento Gonçalves: (51) 3453 4657 / (51) 99376-3084 </li>
+            <li>Delegacia PRF Pelotas: (53) 3273-6756</li>
+            <li>Delegacia PRF Sarandi: (54) 3361-3483 / (54) 3361-2100</li>
+            <li>Delegacia PRF Santa Maria: (55) 3226 6217 / (55) 99117 9182 </li>
+            <li>Delegacia PRF Ijuí: (55) 3333-1705</li>
+            <li>Delegacia PRF Santana do Livramento:  55 3244-2464, 55 3243-2156 / 51 99556-9762</li>
+            <li>Delegacia PRF São Borja: (55) 3431-2626 </li>
+            <li>Delegacia PRF Uruguaiana: (55) 3412-4774 </li>
+        </ul>
+    </div>
+    <div class="goBackButton">
+        <button id="voltar">Voltar Para página inicial</button>
+    </div>
+    </body>
 </html>
