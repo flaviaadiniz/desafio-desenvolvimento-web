@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: whitesmoke;
+    background-color: lightgray;
 }
 
 div {
@@ -14,24 +14,28 @@ div {
     padding: 20px;
 }
 
-h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.8em;
-    color:whitesmoke;
-    margin-bottom: 20px;
-    margin-left: 0px;
-    margin-right: 0px;
-    background-color: darkred;
-    padding: 15px 20px; 
-    border-radius: 10px; 
+header {
+    width: 100%;
+    text-align: center;
 }
 
+header h2 {
+    font-family: 'Roboto', sans-serif;
+    color:whitesmoke;
+    background-color: darkred;
+    padding: 20px 0px; 
+    font-size: 1.8rem
+}
 
-img {
-    max-width: 45%;
-    height: auto;
-    margin-bottom: 20px;
-    border-radius: 10px;
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
 }
 
 h3 {
@@ -52,12 +56,18 @@ h4 {
     font-weight: bold;
     text-align: left;
     color: black;
-    background-color: lightgray;
+    background-color: grey;
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
+img {
+    max-width: 45%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
 
 form {
     max-width: 400px;
@@ -106,9 +116,6 @@ button:hover {
     background-color: #0056b3;
 }
 
-#backToTopBtn:hover {
-    background-color: #54030b;
-}
 
 #cadastro-voluntarios {
     font-weight: bold;
@@ -120,8 +127,8 @@ button:hover {
 }
 
 .abrigos {
-    margin-left: 420;
-    margin-right: 420;
+    margin-left: 0px;
+    width: 30%;
 }
 
 .multiline {
@@ -140,17 +147,6 @@ button:hover {
     margin-right: 100;
 }
 
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-li {
-    display: inline-block;
-}
-
 #list-items {
     margin-right: 20px;
     margin-left: 20px;
@@ -159,17 +155,21 @@ li {
 }
 
 .back {
-    
     margin-left: 15;
     margin-top: 10;
-    width: 20%;
+    width: 15%;
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: darkred;
-    color: #fff;
+    background-color: grey;
+    color: black;
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
+}
+
+#backToTopBtn:hover {
+    background-color: rgb(62, 60, 60);
+    color: white;
 }
 
