@@ -127,19 +127,13 @@ ul{
 }
   */
 
-#voltar{
+.voltar{
   font-size: 18px;
   font-family: "Arial";
-  
+  cursor: pointer;
   height: 45px;
   border-radius: 20px;
   width: 300x;
   background-color: blue;
   margin: center;
 }
-
-
-
-/* text-align: center;
-background-color:rgba(133, 28, 219, 0.76) ;
-border: 3px solid dark; /*
